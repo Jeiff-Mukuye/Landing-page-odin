@@ -3,11 +3,19 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
+    font-size: 26px;
+    margin: 0;
+    height: 100%;
+    
 }
 /* Header section*/
 .header-section {
     background-color: rgb(6, 21, 68);
     color: whitesmoke;
+    padding: 8px;
+    height: 100%;
+    font-size: 80%;
+    
 }
 
 .navbar {
@@ -33,18 +41,34 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 20px;
 
 }
 
 .banner-text {
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
-    
-
 }
- .header > img {
-    width: 500px;
+ /*combines both buttons on the landing page*/
+button {
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(10, 135, 177);
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.header > img {
+    width: 550px;
     height: auto;
-    background-color: aliceblue;
- }
+    background-color: rgb(158, 162, 165);
+}
+
+/*Footer section*/
+.footer {
+    background-color: rgb(6, 21, 68);
+    text-align: center;
+    font-size: 80%;
+    color: whitesmoke;
+    padding: 20px;
+}
