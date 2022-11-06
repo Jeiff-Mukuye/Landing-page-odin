@@ -112,12 +112,18 @@ button {
 
 .content {
     width: 900px;
-    margin: 20px;
+    margin: 90px;
 }
 
 .test-cont {
     font-style: italic;
     font-size: 36px;
+}
+
+.author {
+    margin-left: 690px;
+    margin-top: 15px;
+    font-weight: 800;
 }
 
 /*call to action section*/
@@ -130,14 +136,22 @@ button {
 .call-content {
     width: 900px;
     background-color: #3882f6;
-    margin: 20px;
+    margin: 90px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .call-text {
     display: flex;
     justify-content: space-between;
+    color: white;
+}
+
+.call-text button {
+    border: 2px solid white;
+    padding: 7px;
+    font-size: 18px;
+    margin: 38px;
 }
 
 
