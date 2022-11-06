@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(245, 239, 239);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+/* Header section*/
+.header-section {
+    background-color: rgb(6, 21, 68);
+    color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+.banner-text {
+    max-width: 300px;
+    height: auto;
+    
+
+}
+ .header > img {
+    width: 500px;
+    height: auto;
+    background-color: aliceblue;
+ }
